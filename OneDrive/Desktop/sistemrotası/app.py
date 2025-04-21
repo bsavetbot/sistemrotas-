@@ -1,9 +1,9 @@
 from flask import Flask
-app = Flask(__name__)
+app = Flask(_ _name_ _)
 
 @app.route('/')
 def home():
     return "Sistem Rotası çalışıyor!"
 
-if __name__ == '_ _main_ _':
+if _ _name_ _ == '_ _main_ _':
     app.run()
